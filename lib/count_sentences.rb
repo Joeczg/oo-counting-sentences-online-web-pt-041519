@@ -25,7 +25,7 @@ self.end_with?("!")
     for n in 0..new_array.size - 1 
      if new_array[n].size == 0 
        count += 1 
-    
+    end
      
     end
      return new_array.size - count
