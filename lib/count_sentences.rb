@@ -15,9 +15,10 @@ self.end_with?("!")
   end
 
   def count_sentences
+    new_array = []
   if self.size == 0 
     return 0 
-   self.split(/\?|\.|!/)
+    new_array = self.split(/\?|\.|!/)
     
   end
 end
