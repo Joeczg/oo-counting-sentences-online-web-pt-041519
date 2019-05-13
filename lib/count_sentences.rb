@@ -16,19 +16,19 @@ self.end_with?("!")
 
   def count_sentences
     new_array = []
-  if self.size == 0 
-    return 0 
-  else
-    new_array = self.split(/\?|\.|!/)
-    n = 0 
-    count = 0 
+    if self.size == 0 
+      return 0 
+      else
+     new_array = self.split(/\?|\.|!/)
+      n = 0 
+      count = 0 
     for n in 0..new_array.size - 1 
-     if new_array[n].size == 0 
+      if new_array[n].size == 0 
        count += 1 
     end
      
     end
-     return new_array.size - count
-  end
-end
-end
+        return new_array.size - count
+        end
+      end
+    end
