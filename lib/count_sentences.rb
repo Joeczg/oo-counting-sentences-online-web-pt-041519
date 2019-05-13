@@ -31,3 +31,4 @@ self.end_with?("!")
      return new_array.size - count
   end
 end
+end
